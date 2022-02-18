@@ -8,7 +8,7 @@ It's a series of scripts to easily setup MacOS. These are towards developers mos
 Go to releases and download the latest release. After downloading enter this comand:
 
 ```
-cd Downloads && cd OSX_Bootstraper && cd src.
+cd Downloads && cd OSX-Bootstraper-0.1.1 && cd src.
 ```
 
 (Note, if your downloads folder is a diffrent name, change it accordingly.)
