@@ -1,27 +1,3 @@
-if [ `whoami` != root ]; then
-    echo Please run this script as root or using sudo
-    exit
-fi
-
-
-echo "Welcome to macos full bootstrapper FOSS editiosn."
-echo "This will install a full macos enviorment using homebrew. it will install only apps under foss terms"
-echo "Continue y/N"
-
-read confirm
-
-if confirm = "y"
-then
-    echo "continuing..."
-else
-    echo "Exiting..."
-    exit
-fi
-
-sleep 3
-
-clear
-
 echo "Installing homebrew"
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 

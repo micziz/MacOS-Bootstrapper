@@ -1,29 +1,8 @@
-# The script will install homebrew, waterfox, firefox dev, python, node, ruby, git, iterm2, vscode, vscodium, gimp, inkscape, joplin, discord, spotify, iina, guilded, keka and only oficce
-
-#Cehck for sudo
-if [ `whoami` != root ]; then
-    echo Please run this script as root or using sudo
-    exit
-fi
+# The script will install homebrew, waterfox, firefox dev, python, node, ruby, git, iterm2, vscode, gimp, inkscape, joplin, discord, spotify, iina, guilded, keka and only oficce
 
 
 echo "Welcome to macos full bootstrapper."
 echo "This will install a full macos enviorment using homebrew and macapps.link"
-echo "Continue y/N"
-
-read confirm
-
-if confirm = "y"
-then
-    echo "continuing..."
-else
-    echo "Exiting..."
-    exit
-fi
-
-sleep 3
-
-clear
 
 echo "Installing homebrew"
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -48,8 +27,6 @@ brew install --cask iterm2
 echo "iterm2 installed"
 brew install --cask visual-studio-code
 echo "Vscode installed"
-brew install --cask vscodium
-echo "vscodium installed"
 brew install --cask gimp
 echo "gimp installed"
 brew install --cask inkscape
