@@ -1,4 +1,3 @@
-#!/bin/bash
 echo "Welcome to MacOS Bootstrap for M1."
 echo "This will install a full dev enviorment"
 echo "Are you ok?"
@@ -19,7 +18,7 @@ echo "installing homebrew!"
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 echo "hombre installed"
 echo "adding homebrew to your PATH"
-echo "export PATH=/usr/local/bin:$PATH" >> ~/.bash_profile && source ~/.bash_profile
+echo "export PATH=/opt/homebrew/bin:$PATH" >> ~/.bash_profile && source ~/.bash_profile
 echo "shloud have added homebrew to PATH"
 echo "cleaning up..."
 brew cleanup
@@ -31,7 +30,6 @@ brew install gnu-tar
 brew install gnu-indent
 brew install gnu-which
 brew install findutils
-
 
 echo "proceding to install packages"
 PACKAGES=(

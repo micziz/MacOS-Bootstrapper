@@ -1,32 +1,27 @@
-# Bootstraper for OSX
+# Bootstraper for MacOS
 
 ## What is this?
-It's a series of scripts to easily setup MacOS. These are towards developers mostly. 
-
+It's a script that bootstraps your MacOS installation for developers of today. You can use this script as is, or modify it on a fork.
 ## Installation
 
-Go to releases and download the latest release. After downloading enter this comand:
+Use this command to download and go into the directory of the file:
 
 ```
-cd Downloads && cd OSX-Bootstraper-0.1.1 && cd src.
+git clone https://github.com/micziz/MacOS-Bootstrapper.git && cd MacOS-Bootstrapper
 ```
 
-(Note, if your downloads folder is a diffrent name, change it accordingly.)
+**M1**
 
-Then select the script you want to run by doing
+sh scriptm1.sh
 
-```
-sh scriptyouwanttorun.sh
-```
+**Intel**
+
+sh script.sh
 
 Enjoy!
 
-## Liscence
+## License
 
-The project is under the MIT Liscence. Learn more in the liscence file!
-
-## Contributing
-
-Pr's are greatly apprecieated. Please read contributing.md before contributing.
+The project is under the MIT License. Learn more in the license file!
 
 # Made with love❤️ in italy🇮🇹
