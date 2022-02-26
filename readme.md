@@ -12,11 +12,15 @@ git clone https://github.com/micziz/MacOS-Bootstrapper.git && cd MacOS-Bootstrap
 
 **M1**
 
+```
 sh scriptm1.sh
+```
 
 **Intel**
 
+```
 sh script.sh
+```
 
 Enjoy!
 
