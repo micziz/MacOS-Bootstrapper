@@ -7,7 +7,7 @@ It's a script that bootstraps your MacOS installation for developers of today. Y
 Use this command to download and go into the directory of the file:
 
 ```
-git clone https://github.com/micziz/MacOS-Bootstrapper.git && cd MacOS-Bootstrapper
+git clone https://github.com/micziz/MacOS-Bootstrapper.git && cd MacOS-Bootstrapper && cd src
 ```
 
 **M1**
