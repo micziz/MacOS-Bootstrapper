@@ -74,6 +74,8 @@ CASKS=(
     spotify
     iterm2
     pycharm
+    handbrake
+    zoom
 )
 sudo -u $SUDO_USER brew install --cask ${CASKS[@]}
 echo "installeing rust"
